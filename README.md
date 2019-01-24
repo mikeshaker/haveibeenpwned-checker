@@ -1,4 +1,4 @@
-# pwnedPassword
+# haveibeenpwned-checker
 Pwned Passwords check passwords if they have previously been exposed in data breaches.
 Using PwnedPasswords API by Troy Hunt (haveibeenpwned.com).
 
