@@ -1,0 +1,29 @@
+{
+  "name": "haveibeenpwned-checker",
+  "version": "0.0.1",
+  "description": "Pwned Passwords check passwords if they have previously been exposed in data breaches. based on https://haveibeenpwned.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeshaker/pwnedPassword.git"
+  },
+  "keywords": [
+    "haveibeenpwned",
+    "pwned",
+    "password",
+    "pwnedpassword",
+    "have-i-been-pwned"
+  ],
+  "author": "Mike Shaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeshaker/pwnedPassword/issues"
+  },
+  "homepage": "https://github.com/mikeshaker/pwnedPassword#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
