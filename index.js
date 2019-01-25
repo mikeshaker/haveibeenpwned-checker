@@ -37,7 +37,7 @@ function isPasswordPwned (password, cb, timeout = 3000) {
         .map(mapped => Number(mapped[1]))
         .shift() || 0;
         result.count = pwnedCount;
-        result.pwned = true;
+        result.pwned = pwnedCount > 0;
     return cb(result);
  });
 }
