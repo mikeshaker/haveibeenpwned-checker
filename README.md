@@ -19,7 +19,11 @@ const isPasswordPwned = require('haveibeenpwned-checker');
 
 isPasswordPwned('password', this.passwordPwnedCallback, 1000);
 
-
+//Return Object
+// { error: string, failed: boolean, count: number }
+// error: error message if encounter an error.
+// failed: boolean flag to indicate if call/api failed
+// count: count of how many times it appears in breaches.
 function passwordPwnedCallback (e){
    console.log(e);
    //{ error: '', failed: false, count: 3645804 }
