@@ -1,6 +1,6 @@
 {
   "name": "haveibeenpwned-checker",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Pwned Passwords check passwords if they have previously been exposed in data breaches. based on https://haveibeenpwned.com",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mikeshaker/haveibeenpwned-checker#readme",
   "dependencies": {
-    "request": "^2.88.0"
+    "simple-get": "^3.0.3"
   },
   "engines": {
     "node": ">=4.0.0"

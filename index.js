@@ -1,15 +1,15 @@
-const request = require('request');
 const crypto = require('crypto');
+const get = require('simple-get');
+
 
 const PREFIX_LENGTH = 5;
 const API_URL = 'https://api.pwnedpasswords.com/range/';
-
-function isPasswordPwned(password, cb, timeout = 3000) {
-  const hasCallback = typeof cb === 'function';
+function isPasswordPwned(password, callbackMethod, timeout = 3000) {
+  const hasCallback = typeof callbackMethod === 'function';
 
   if (typeof password !== 'string') {
     const err = new Error('Input password must be a string.');
-    return hasCallback ? cb(err) : Promise.reject(err);
+    return hasCallback ? callbackMethod(err) : (err);
   }
   const hashedPassword = hash(password);
   const hashedPasswordPrefix = hashedPassword.substr(0, PREFIX_LENGTH);
@@ -17,18 +17,24 @@ function isPasswordPwned(password, cb, timeout = 3000) {
 
   var result = {
     error: "",
-    failed: false,
+    success: true,
     count: 0,
     pwned: false
   };
-  request(API_URL + hashedPasswordPrefix, { timeout: timeout }, (err, res, body) => {
+
+  const opts = {
+    url: API_URL + hashedPasswordPrefix,
+    timeout: timeout
+  };
+  console.log('opts', opts.timeout);
+  get.concat(opts, function (err, res, data) {
     if (err) {
       result.error = err;
-      result.failed = true;
-
-      return cb(result);
+      result.success = false;
+      return hasCallback ? callbackMethod(result) : result;
     }
-    const pwnedCount = body
+    var dataString = String.fromCharCode.apply(null, data);
+    const pwnedCount = dataString
       .split('\n')
       .map((line) => line.split(':'))
       .filter((filtered) => filtered[0].toLowerCase() === hashedPasswordSuffix)
@@ -36,7 +42,7 @@ function isPasswordPwned(password, cb, timeout = 3000) {
       .shift() || 0;
     result.count = pwnedCount;
     result.pwned = pwnedCount > 0;
-    return cb(result);
+    return hasCallback ? callbackMethod(result) : result;
   });
 }
 
