@@ -1,4 +1,4 @@
-var request = require('request');
+const request = require('request');
 const crypto = require('crypto');
 
 const PREFIX_LENGTH = 5
