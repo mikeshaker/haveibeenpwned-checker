@@ -1,5 +1,5 @@
 # haveibeenpwned-checker
-[![npm version](https://img.shields.io/npm/v/haveibeenpwned-checker.svg?label=haveibeenpwned-checker)](https://www.npmjs.com/package/@shadowspawn/nvh)
+[![npm version](https://img.shields.io/npm/v/haveibeenpwned-checker.svg?label=haveibeenpwned-checker)](https://www.npmjs.com/package/haveibeenpwned-checker)
 
 Pwned Passwords check passwords if they have previously been exposed in data breaches.
 Using PwnedPasswords API by Troy Hunt (haveibeenpwned.com).
