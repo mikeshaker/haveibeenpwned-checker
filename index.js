@@ -26,7 +26,6 @@ function isPasswordPwned(password, callbackMethod, timeout = 3000) {
     url: API_URL + hashedPasswordPrefix,
     timeout: timeout
   };
-  console.log('opts', opts.timeout);
   get.concat(opts, function (err, res, data) {
     if (err) {
       result.error = err;
