@@ -5,7 +5,7 @@ Pwned Passwords check passwords if they have previously been exposed in data bre
 Using PwnedPasswords API by **Troy Hunt (haveibeenpwned.com)**.
 
 ## Demo
-[Live Demo](https://repl.it/@MikeShaker/haveibeenpwned-checker)
+[Live Demo](https://runkit.com/mikeshaker/5c532385ea44070012efe499)
 
 ## Installation
 
