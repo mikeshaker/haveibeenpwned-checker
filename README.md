@@ -7,6 +7,9 @@ Using PwnedPasswords API by **Troy Hunt (haveibeenpwned.com)**.
 ## Demo
 [Live Demo](https://runkit.com/mikeshaker/5c532385ea44070012efe499)
 
+
+![haveibeenpwned-checker](./pwnedPwd.gif?raw=true "Examples")
+
 ## Installation
 
 ```sh
