@@ -1,7 +1,7 @@
 {
   "name": "haveibeenpwned-checker",
-  "version": "0.4.1",
-  "description": "Pwned Passwords check passwords if they have previously been exposed in data breaches. based on https://haveibeenpwned.com",
+  "version": "0.4.2",
+  "description": "haveibeenpwned-checker validate email addresses, usernames, and passwords if they have previously been exposed in data breaches. based on https://haveibeenpwned.com",
   "main": "index.js",
   "repository": {
     "type": "git",
