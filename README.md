@@ -45,3 +45,8 @@ function passwordPwnedCallback (e){
    console.log(e);
    //{ error: '', success: true, count: 3645804 }
 }
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/mikeshaker/haveibeenpwned-checker/badge.svg?style=beer-square)](https://beerpay.io/mikeshaker/haveibeenpwned-checker)  [![Beerpay](https://beerpay.io/mikeshaker/haveibeenpwned-checker/make-wish.svg?style=flat-square)](https://beerpay.io/mikeshaker/haveibeenpwned-checker?focus=wish)
