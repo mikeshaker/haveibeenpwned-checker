@@ -8,7 +8,8 @@ Using PwnedPasswords API by **Troy Hunt (haveibeenpwned.com)**.
 
 ## Demo
 [Live Demo](https://runkit.com/mikeshaker/5c5499162cc0b70012c1f73b)
-
+OR 
+[Live Demo](https://repl.it/@MikeShaker/haveibeenpwned-checker-v042)
 
 ## Installation
 
