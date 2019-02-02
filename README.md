@@ -5,8 +5,8 @@
 [![Beerpay](https://beerpay.io/mikeshaker/haveibeenpwned-checker/badge.svg?style=plastic)](https://beerpay.io/mikeshaker/haveibeenpwned-checker)
 
 
-Pwned Passwords check passwords if they have previously been exposed in data breaches.
-Using PwnedPasswords API by **Troy Hunt (haveibeenpwned.com)**.
+Pwned Passwords check passwords, email addresses, and usernames if they have previously been exposed in data breaches.
+Using APIs by **Troy Hunt (haveibeenpwned.com)**.
 
 ## Demo
 [Live Demo](https://runkit.com/mikeshaker/5c5499162cc0b70012c1f73b)
