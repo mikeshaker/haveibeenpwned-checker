@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/haveibeenpwned-checker.svg?label=haveibeenpwned-checker)](https://www.npmjs.com/package/haveibeenpwned-checker)
 [![Build Status](https://travis-ci.org/mikeshaker/haveibeenpwned-checker.svg?branch=master)](https://travis-ci.org/mikeshaker/haveibeenpwned-checker)
 [![NPM Downloads](https://img.shields.io/npm/dt/haveibeenpwned-checker.svg?style=flat)](https://www.npmjs.com/package/haveibeenpwned-checker)
-[![Beerpay](https://beerpay.io/mikeshaker/haveibeenpwned-checker/badge.svg?style=plastic)](https://beerpay.io/mikeshaker/haveibeenpwned-checker) [![Greenkeeper badge](https://badges.greenkeeper.io/mikeshaker/haveibeenpwned-checker.svg)](https://greenkeeper.io/)
+(https://badges.greenkeeper.io/mikeshaker/haveibeenpwned-checker.svg)](https://greenkeeper.io/)
 
 
 Pwned Passwords check passwords, email addresses, and usernames if they have previously been exposed in data breaches.
