@@ -10,9 +10,9 @@ Pwned Passwords check passwords, email addresses, and usernames if they have pre
 Using APIs by **Troy Hunt (haveibeenpwned.com)**.
 
 ## Demo
-[Live Demo](https://runkit.com/mikeshaker/5c5499162cc0b70012c1f73b)
+[Live Demo 1](https://runkit.com/mikeshaker/5c5499162cc0b70012c1f73b)
 OR 
-[Live Demo](https://repl.it/@MikeShaker/haveibeenpwned-checker-v042)
+[Live Demo 2](https://repl.it/@MikeShaker/haveibeenpwned-checker-v042)
 
 ## Installation
 
