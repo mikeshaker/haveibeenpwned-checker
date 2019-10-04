@@ -11,8 +11,8 @@ Using APIs by **Troy Hunt (haveibeenpwned.com)**.
 
 ## Demo
 [Live Demo 1](https://runkit.com/mikeshaker/5c5499162cc0b70012c1f73b)
-OR 
-[Live Demo 2](https://repl.it/@MikeShaker/haveibeenpwned-checker-v042)
+
+## v2 Coming soon 
 
 ## Installation
 
