@@ -22,7 +22,7 @@
   "homepage": "https://github.com/mikeshaker/haveibeenpwned-checker#readme",
   "dependencies": {
     "limiter": "^1.1.4",
-    "simple-get": "^3.0.3"
+    "simple-get": "^4.0.0"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
